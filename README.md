@@ -1,184 +1,315 @@
-# Dynamous Kiro Hackathon Quickstart Template
+# PromptSmith (PRT) - AI Prompt Refinement Tool
 
-🚀 **Your starting point for the Dynamous and Kiro Hackathon** - A comprehensive template with pre-configured Kiro CLI setup, development workflows, and submission guidelines.
-
-> **📖 New to Kiro?** Check out [kiro-guide.md](kiro-guide.md) to quickly get accustomed to how Kiro works and understand its unique features for the hackathon.
-
-## About the Hackathon
-
-The **Kiro Hackathon** is a coding competition where developers build real-world applications using the Kiro CLI. Show off your AI-powered development skills and compete for **$17,000 in prizes**.
-
-- **📅 Dates**: January 5-23, 2026
-- **💰 Prize Pool**: $17,000 across 10 winners
-- **🎯 Theme**: Open - build anything that solves a real problem
-- **🔗 More Info**: [dynamous.ai/kiro-hackathon](https://dynamous.ai/kiro-hackathon)
-
-## What's Included
-
-This template provides everything you need to get started:
-
-- **📋 Steering Documents**: Pre-configured project templates (product.md, tech.md, structure.md)
-- **⚡ Custom Prompts**: 11 powerful development workflow prompts
-- **📖 Examples**: Sample README and DEVLOG showing best practices
-- **🏆 Hackathon Tools**: Specialized code review prompt for submission evaluation
-
-## Quick Start
-
-### 1. Clone This Template
-```bash
-git clone https://github.com/coleam00/dynamous-kiro-hackathon
-cd dynamous-kiro-hackathon
-```
-
-### 2. Run the Setup Wizard
-```bash
-@quickstart
-```
-
-This assumes you already have Kiro CLI installed and that you started with the `kiro-cli` command in your terminal.
-
-This interactive wizard will:
-- ✅ Fill out your steering documents with project details
-- ✅ Configure your development workflow
-- ✅ Set up Kiro CLI for your specific project
-- ✅ Explain all available prompts and features
-
-### 3. Start Building
-Your project is now configured! Use these core prompts:
-- **`@prime`** - Load project context
-- **`@plan-feature`** - Plan new features
-- **`@execute`** - Implement plans systematically
-- **`@code-review`** - Review code quality
-
-**Note:** Your typical workflow will be `@prime` → `@plan-feature` → `@execute` → `@code-review`, but feel free to change it however you want. These commands may require additional details (like what feature to plan or which plan file to execute), but Kiro will ask for these parameters after you invoke the command.
-
-## Development Workflow (Customize this However You Want!)
-
-### Initial Setup (One-Time)
-1. **Complete setup**: Run `@quickstart` to configure your project
-
-### Core Development Cycle (Every Feature/Session)
-
-### Phase 1: Setup & Planning
-1. **Load context**: Use `@prime` to understand your codebase
-2. **Plan features**: Use `@plan-feature` for comprehensive planning
-
-### Phase 2: Build & Iterate
-1. **Implement**: Use `@execute` to build features systematically
-2. **Review**: Use `@code-review` to maintain code quality
-3. **Document**: Update your DEVLOG.md as you work
-4. **Optimize**: Customize your `.kiro/` configuration for your workflow
-
-### Phase 3: Submission Preparation
-1. **Final review**: Run `@code-review-hackathon` for submission evaluation
-2. **Polish documentation**: Ensure README.md and DEVLOG.md are complete
-3. **Verify requirements**: Check all submission criteria are met
-
-## Submission Requirements
-
-Your submission will be judged on these criteria (100 points total):
-
-### Application Quality (40 points)
-- **Functionality & Completeness** (15 pts): Does it work as intended?
-- **Real-World Value** (15 pts): Does it solve a genuine problem?
-- **Code Quality** (10 pts): Is the code well-structured and maintainable?
-
-### Kiro CLI Usage (20 points)
-- **Effective Use of Features** (10 pts): How well did you leverage Kiro CLI?
-- **Custom Commands Quality** (7 pts): Quality of your custom prompts
-- **Workflow Innovation** (3 pts): Creative use of Kiro CLI features
-
-### Documentation (20 points)
-- **Completeness** (9 pts): All required documentation present
-- **Clarity** (7 pts): Easy to understand and follow
-- **Process Transparency** (4 pts): Clear development process documentation
-
-### Innovation (15 points)
-- **Uniqueness** (8 pts): Original approach or solution
-- **Creative Problem-Solving** (7 pts): Novel technical solutions
-
-### Presentation (5 points)
-- **Demo Video** (3 pts): Clear demonstration of your project
-- **README** (2 pts): Professional project overview
-
-## Required Documentation
-
-Ensure these files are complete and high-quality:
-
-### README.md
-- Clear project description and value proposition
-- Prerequisites and setup instructions
-- Architecture overview and key components
-- Usage examples and troubleshooting
-
-*There's a lot of freedom for how you can structure this. Just make sure that it's easy for someone viewing this to know exactly what your project is about and how to run it themselves. This is the main criteria that explains the project clearly and how to test it in a local environment.*
-
-### DEVLOG.md
-- Development timeline with key milestones
-- Technical decisions and rationale
-- Challenges faced and solutions implemented
-- Time tracking and Kiro CLI usage statistics
-
-*There's a lot of freedom in how you structure this too. It's up to you how you want to document your timeline, milestones, decisions made, challenges you encounter, and all those kinds of things. Feel free to use Kiro to help you maintain your devlog as you're working on the project. Hint: create a Kiro prompt to help you update your log based on what's happening.*
-
-### .kiro/ Directory
-- **Steering documents**: Customized for your project
-- **Custom prompts**: Workflow-specific commands
-- **Configuration**: Optimized for your development process
-
-*This template provides a good starting point with prompts, and the wizard helps you set up your initial steering documents. However, it's encouraged for you to continue to customize things and refine it as you're working on your project.*
-
-## Available Prompts
-
-This template includes 11 powerful development prompts:
-
-### Core Development
-- **`@prime`** - Load comprehensive project context
-- **`@plan-feature`** - Create detailed implementation plans
-- **`@execute`** - Execute plans with systematic task management
-- **`@quickstart`** - Interactive project setup wizard
-
-### Quality Assurance
-- **`@code-review`** - Technical code review for quality and bugs
-- **`@code-review-hackathon`** - Hackathon submission evaluation
-- **`@code-review-fix`** - Fix issues found in code reviews
-- **`@system-review`** - Analyze implementation vs plan
-
-### Documentation & Planning
-- **`@create-prd`** - Generate Product Requirements Documents
-- **`@execution-report`** - Generate implementation reports
-- **`@rca`** - Root cause analysis for issues
-- **`@implement-fix`** - Implement fixes based on analysis
-
-## Examples
-
-Check the `examples/` folder for:
-- **README.md**: Professional project documentation example
-- **DEVLOG.md**: Comprehensive development log example
-
-These examples show the level of detail and professionalism expected for hackathon submissions.
-
-## Tips for Success
-
-### Maximize Your Score
-1. **Use Kiro CLI extensively** - It's 20% of your score
-2. **Document everything** - Process documentation is 20% of your score
-3. **Build something useful** - Real-world value is heavily weighted
-4. **Optimize your workflow** - Custom prompts and steering documents matter
-
-### Development Best Practices
-- **Start with `@quickstart`** to set up your foundation properly
-- **Use `@prime`** at the start of every new conversation to quickly catch the coding assistant up to speed on what has been built in the project already
-- **Update your DEVLOG.md** continuously, not just at the end
-- **Customize your `.kiro/` configuration** as you learn your workflow
-- **Run `@code-review-hackathon`** periodically to compare your project against the judging rubric and before submitting
-
-## Getting Help
-
-- **Kiro CLI Documentation**: [kiro.dev/docs/cli](https://kiro.dev/docs/cli)
-- **Hackathon Community**: Join the Dynamous community for support
-- **Built-in Help**: Use `/help` in Kiro CLI for command assistance
+**Dynamous × Kiro Hackathon Project**  
+_January 21-23, 2026_
 
 ---
 
-**Ready to build something amazing?** Run `@quickstart` and let's get started! 🚀
+## Overview
+
+PromptSmith is a prompt analysis and refinement tool that helps users systematically improve the quality of AI prompts before execution. It treats prompts as first-class artifacts (like code) that can be analyzed, linted, scored, refined, and iterated on using clear rules and best practices.
+
+### The Problem
+
+When AI prompts produce poor or inconsistent results, users often:
+
+- Don't understand **why** the output failed
+- Can't tell whether the prompt follows best practices
+- Repeatedly rewrite prompts without structured feedback
+- Waste time due to unclear guidance
+
+### The Solution
+
+PromptSmith provides:
+
+- **Rule-based analysis** against 25 best-practice rules across 5 categories
+- **Quality scoring** (0-100) with category-level breakdowns
+- **Actionable feedback** with specific suggestions for improvement
+- **AI-assisted refinement** that preserves intent while fixing issues
+- **Before/after comparison** to visualize improvements
+
+---
+
+## Features
+
+### Core MVP Features
+
+1. **Prompt Input & Analysis**
+   - Paste or write raw prompts for evaluation
+   - Real-time analysis against 25 rules
+
+2. **Rule-Based Linting**
+   - Category A: Clarity & Intent (5 rules)
+   - Category B: Context & Inputs (5 rules)
+   - Category C: Instructions & Constraints (5 rules)
+   - Category D: Output Format & Verification (5 rules)
+   - Category E: Safety, Privacy & Robustness (5 rules)
+
+3. **Quality Scoring**
+   - Overall score (0-100)
+   - Category-level sub-scores
+   - Quality tier assignment (Excellent/Good/Fair/Poor/Critical)
+
+4. **AI-Assisted Refinement**
+   - Generate improved versions with explanations
+   - Preserve original intent
+   - Apply fixes based on rule findings
+
+5. **Before/After Comparison**
+   - Side-by-side view
+   - Highlighted differences
+   - Score improvement metrics
+
+6. **Export & Reuse**
+   - Copy refined prompt
+   - Download functionality
+   - Local session storage
+
+---
+
+## Tech Stack
+
+- **Frontend**: React + Next.js 15 (App Router) + TypeScript
+- **Styling**: Tailwind CSS
+- **Validation**: Zod schemas
+- **AI Integration**: OpenAI API (or similar)
+- **Storage**: Browser LocalStorage (no backend persistence)
+- **Deployment**: Vercel
+
+---
+
+## Prerequisites
+
+- Node.js 18+
+- npm/yarn/pnpm
+- Modern web browser
+- AI API key (OpenAI, Anthropic, etc.)
+
+---
+
+## Quick Start
+
+### 1. Clone and Install
+
+```bash
+git clone <repository-url>
+cd prompt-smith
+npm install
+```
+
+### 2. Configure Environment
+
+```bash
+cp .env.example .env.local
+# Edit .env.local and add your AI API key
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### 4. Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## Project Structure
+
+```
+prompt-smith/
+├── .kiro/                      # Kiro CLI configuration
+│   ├── prompts/                # Custom development prompts
+│   ├── specs/                  # Feature specifications
+│   └── steering/               # Project knowledge documents
+├── .agents/                    # Implementation plans
+│   └── plans/
+├── docs/                       # Documentation
+│   ├── DEVLOG.md              # Development log (hackathon requirement)
+│   ├── rules.md               # 25-rule specification
+│   └── system.md              # System architecture blueprint
+├── src/
+│   ├── app/                   # Next.js App Router
+│   │   ├── api/               # API routes
+│   │   ├── page.tsx           # Home page
+│   │   └── layout.tsx         # Root layout
+│   ├── components/            # React components
+│   ├── lib/                   # Core business logic
+│   │   ├── rules/             # Rule definitions
+│   │   ├── engine/            # Analysis engine
+│   │   ├── schemas/           # Zod schemas
+│   │   └── utils/             # Utilities
+│   └── types/                 # TypeScript types
+├── public/                    # Static assets
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## Development Workflow
+
+This project was built using **Kiro CLI** with a spec-driven development approach:
+
+1. **@quickstart** - Initial project setup and configuration
+2. **@prime** - Load project context
+3. **@plan-feature** - Create detailed implementation plans
+4. **@execute** - Implement features systematically
+5. **@code-review** - Maintain code quality
+
+See `docs/DEVLOG.md` for detailed development timeline and decisions.
+
+---
+
+## Rule Set
+
+PromptSmith evaluates prompts against **25 rules** across **5 categories**:
+
+### Category A: Clarity & Intent
+
+- R1: Explicit Role Defined (±4)
+- R2: Clear Primary Goal (±5)
+- R3: Scope Is Explicit (±4)
+- R4: Target Audience Specified (±3)
+- R5: Ambiguous Language Avoided (±4)
+
+### Category B: Context & Inputs
+
+- R6: Relevant Background Provided (±5)
+- R7: Inputs Clearly Defined (±4)
+- R8: Assumptions Are Declared (±3)
+- R9: Constraints Are Contextualized (±3)
+- R10: No Contradictory Instructions (±5)
+
+### Category C: Instructions & Constraints
+
+- R11: Step-by-Step Instructions Where Needed (±4)
+- R12: Explicit Constraints Listed (±4)
+- R13: Priority Order Defined (±3)
+- R14: Desired Depth or Detail Specified (±4)
+- R15: Edge Cases or Exceptions Mentioned (±3)
+
+### Category D: Output Format & Verification
+
+- R16: Output Format Explicitly Defined (±5)
+- R17: Structured Output Requested Where Appropriate (±4)
+- R18: Examples Provided (Few-Shot) (±4)
+- R19: Acceptance Criteria Defined (±4)
+- R20: Self-Verification Requested (±3)
+
+### Category E: Safety, Privacy & Robustness
+
+- R21: Sensitive Data Avoided (±5)
+- R22: Ethical or Harmful Requests Avoided (±5)
+- R23: Tool or Capability Limits Acknowledged (±3)
+- R24: Over-Specification Avoided (±2)
+- R25: Prompt Is Reusable (±3)
+
+**Total Possible Score**: 100 points
+
+See `docs/rules.md` for complete rule definitions.
+
+---
+
+## Architecture
+
+### System Components
+
+1. **Rule Engine** - Pattern matching and rule evaluation
+2. **Scoring System** - Calculate quality scores
+3. **Analysis Engine** - Orchestrate rule evaluation
+4. **AI Refinement Service** - Generate improved prompts
+5. **Comparison System** - Visualize before/after differences
+
+See `docs/system.md` for detailed architecture blueprint.
+
+---
+
+## Testing
+
+```bash
+# Run linter
+npm run lint
+
+# Type checking
+npx tsc --noEmit
+
+# Build test
+npm run build
+```
+
+---
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Configure environment variables in Vercel dashboard
+4. Deploy automatically
+
+### Environment Variables
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+NODE_ENV=production
+NEXT_PUBLIC_APP_URL=https://your-domain.com
+```
+
+---
+
+## Hackathon Submission
+
+### Required Documentation
+
+- ✅ **README.md** - This file
+- ✅ **DEVLOG.md** - Development timeline and decisions
+- ✅ **.kiro/** - Custom prompts and steering documents
+- ⏳ **Demo Video** - 2-3 minute demonstration (TBD)
+
+### Judging Criteria (100 points)
+
+- **Application Quality** (40 pts) - Functionality, value, code quality
+- **Kiro CLI Usage** (20 pts) - Effective use of features
+- **Documentation** (20 pts) - Completeness and clarity
+- **Innovation** (15 pts) - Uniqueness and creativity
+- **Presentation** (5 pts) - Demo video and README
+
+---
+
+## Contributing
+
+This is a hackathon project. Contributions are welcome after the competition ends.
+
+---
+
+## License
+
+MIT License - See LICENSE file for details
+
+---
+
+## Acknowledgments
+
+- Built for the **Dynamous × Kiro Hackathon** (January 2026)
+- Developed using **Kiro CLI** for AI-assisted development
+- Inspired by the need for systematic prompt quality improvement
+
+---
+
+## Contact
+
+For questions or feedback, please open an issue on GitHub.
+
+---
+
+**Built with ❤️ using Kiro CLI**
