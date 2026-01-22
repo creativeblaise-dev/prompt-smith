@@ -32,7 +32,7 @@ export function usePromptAnalysis(): UsePromptAnalysisReturn {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ prompt }),
+        body: JSON.stringify({ content: prompt }),
       });
 
       if (!response.ok) {
