@@ -540,3 +540,12 @@ export const pipe = <T>(...fns: Array<(arg: T) => T>) => (value: T): T =>
 - [ ] Implement comparison view
 - [ ] Performance optimization
 - [ ] Final polish and deployment
+
+### Bug Fix Session [0.5h]
+
+- **Time**: 20:47 - 20:55 UTC
+- **Issue**: "Analysis failed: Bad Request" error in frontend
+- **Root Cause**: API expected `{ content: string }` but frontend sent `{ prompt: string }`
+- **Solution**: Updated both main page and custom hook to send correct field name
+- **Result**: ✅ Analyzer now works correctly
+- **Commit**: 74fa666 - API request field name fix
