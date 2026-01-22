@@ -14,9 +14,9 @@ export type Rule = Readonly<{
   description: string;
   weight: number;
   severity: Severity;
-  check: (prompt: string) => boolean;
+  check: (prompt: string) => Promise<boolean>;
   suggestion: string;
 }>;
 
-export type RuleCheck = (prompt: string) => boolean;
-export type RuleEvaluator = (rule: Rule) => (prompt: string) => boolean;
+export type RuleCheck = (prompt: string) => Promise<boolean>;
+export type RuleEvaluator = (rule: Rule) => (prompt: string) => Promise<boolean>;
