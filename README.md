@@ -79,7 +79,7 @@ PromptSmith provides:
 
 ## Demo Video
 
-🎥 **[Demo Video](VIDEO_URL_HERE)** - 3-minute demonstration of PromptSmith's innovative features
+🎥 **[Demo Video](https://www.loom.com/share/8e151105ac494f3d8e333ec362fafddf)** - 3-minute demonstration of PromptSmith's innovative features
 
 ### Video Highlights
 
@@ -90,7 +90,7 @@ PromptSmith provides:
 - **Visual Prompt Builder**: Drag-and-drop MPF construction
 - **Before/After Results**: Dramatic score improvements (30 → 90/100)
 
-📖 **[Complete User Guide](docs/USER-GUIDE.md)** | 🎬 **[Video Recording Guide](docs/VIDEO-GUIDE.md)**
+📖 **[Complete User Guide](docs/USER-GUIDE.md)**
 
 ---
 
@@ -276,7 +276,6 @@ npm run build
 ### Environment Variables
 
 ```bash
-OPENAI_API_KEY=your_api_key_here
 NODE_ENV=production
 NEXT_PUBLIC_APP_URL=https://your-domain.com
 ```
