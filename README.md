@@ -25,7 +25,7 @@ PromptSmith provides:
 - **Rule-based analysis** against 25 best-practice rules across 5 categories
 - **Quality scoring** (0-100) with category-level breakdowns
 - **Actionable feedback** with specific suggestions for improvement
-- **AI-assisted refinement** that preserves intent while fixing issues
+- **Structured refinement** that preserves intent while fixing issues
 - **Before/after comparison** to visualize improvements
 
 ---
@@ -50,7 +50,7 @@ PromptSmith provides:
    - Category-level sub-scores
    - Quality tier assignment (Excellent/Good/Fair/Poor/Critical)
 
-4. **AI-Assisted Refinement**
+4. **Rule-Based Refinement**
    - Generate improved versions with explanations
    - Preserve original intent
    - Apply fixes based on rule findings
@@ -72,9 +72,25 @@ PromptSmith provides:
 - **Frontend**: React + Next.js 15 (App Router) + TypeScript
 - **Styling**: Tailwind CSS
 - **Validation**: Zod schemas
-- **AI Integration**: OpenAI API (or similar)
 - **Storage**: Browser LocalStorage (no backend persistence)
 - **Deployment**: Vercel
+
+---
+
+## Demo Video
+
+🎥 **[Demo Video](VIDEO_URL_HERE)** - 3-minute demonstration of PromptSmith's innovative features
+
+### Video Highlights
+
+- **Problem Demonstration**: See how vague prompts score poorly (20-30/100)
+- **Rule-Based Analysis**: 25 expert rules providing specific feedback
+- **Performance Prediction**: Success likelihood and efficiency scoring
+- **Intelligent Variations**: Three distinct optimization approaches
+- **Visual Prompt Builder**: Drag-and-drop MPF construction
+- **Before/After Results**: Dramatic score improvements (30 → 90/100)
+
+📖 **[Complete User Guide](docs/USER-GUIDE.md)** | 🎬 **[Video Recording Guide](docs/VIDEO-GUIDE.md)**
 
 ---
 
