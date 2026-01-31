@@ -1,7 +1,7 @@
 # PromptSmith (PRT) - AI Prompt Refinement Tool
 
 **Dynamous × Kiro Hackathon Project**  
-_January 21-23, 2026_
+_January 21-30, 2026_
 
 ---
 
